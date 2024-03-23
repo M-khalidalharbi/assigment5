@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class ToDoAppTest {
-    private WebDriver driver;
+    public static WebDriver driver;
 
     @BeforeClass
     public void setUp() {
